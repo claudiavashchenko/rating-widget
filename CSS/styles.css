@@ -66,3 +66,31 @@ body {
     left: 38px;
     width: 75px;
 }
+.ratings-container {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.rating-container div {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+#bad {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(216, 71, 71);
+}
+#okay {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(79, 186, 194);
+}
+#good {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(79, 194, 89);
+}
